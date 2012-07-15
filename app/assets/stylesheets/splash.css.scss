@@ -1,21 +1,22 @@
 #splash {
   margin: 0 auto;
-  padding-top: 40px;
-  width: 700px;
+  padding-top: 25px;
+  width: 810px;
 
   h1 {
     color: white;
-    font-size: 90px;
+    font-size: 110px;
     margin: 10px 0;
     padding: 0;    
   }
 
   .presents {
     color: white;
+    font-size: 20px;
     padding: 10px 0;
 
     span {
-      font-size: 20px;
+      font-size: 28px;
     }
   }
 
@@ -23,16 +24,22 @@
     border: 7px solid #2A2A2A;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 1px inset, rgba(255, 255, 255, 0.1) 0px -1px 1px inset;
-    height: 420px;
+    height: 452px;
     margin: 25px 0 0 0;
-    width: 520px;
+    width: 800px;
   }
 
   #skip {
     margin-top: 25px;
+    text-align: right;
 
     a {
       color: #ccc;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
