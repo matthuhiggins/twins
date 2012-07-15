@@ -7,12 +7,18 @@
 
   <div id="video">
     <object width="520" height="420">
-      <param name="movie" value="http://www.youtube.com/v/OdT9z-JjtJk&autoplay=1&controls=0&showinfo=0"></param>
-      <embed src="http://www.youtube.com/v/OdT9z-JjtJk&autoplay=1&controls=0&showinfo=0" type="application/x-shockwave-flash" width="520" height="420"></embed>
+      <param name="movie" value="http://www.youtube.com/v/3fG-NY5METc&autoplay=1&controls=0&showinfo=0"></param>
+      <embed src="http://www.youtube.com/v/3fG-NY5METc&autoplay=1&controls=0&showinfo=0" type="application/x-shockwave-flash" width="520" height="420"></embed>
     </object>
   </div>
 
   <div id="skip">
     <%= link_to 'Skip to Information »', action: 'info' %>
-  </div>
+  </div>  
 </div>
+
+<script>
+setTimeout(function() {
+  window.location = '/info'
+});
+</script>
